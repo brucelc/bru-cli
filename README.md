@@ -92,7 +92,7 @@ bruce-cli cli download myApp 执行命令
     root$ mv tmpDir tmpNewDir
     root$ mkdir -p one/two
     root$ cp -r tmp tmpNew
-```
+    ```
 
 #### 具体实现
 1. npm init生成paackage.json文件
@@ -126,6 +126,7 @@ bruce-cli cli download myApp 执行命令
 
     program.parse(process.argv);
     ```
+
 4. touch bin/create.js bin/download.js
 5. download.js实现从git仓库下载模板脚手架到本地
 
@@ -173,6 +174,7 @@ bruce-cli cli download myApp 执行命令
         }
     }
     ```
+
 6. create.js实现创建模板文件, 具体代码,参见下面链接;
 
 #### 发布到npm
@@ -212,13 +214,13 @@ bruce-cli cli download myApp 执行命令
 
 
 
+### 引用
 
-
-[so easy 搭建前端脚手架](https://segmentfault.com/a/1190000016915868)
-[一次nodejs开发CLI的过程](https://juejin.im/post/5a90dd62f265da4e9a4973aa)
-[create-react-app源码分析](https://github.com/fi3ework/blog/issues/38)
-[vue-cli源码分析](https://kuangpf.com/vue-cli-analysis/serve/)
-[源码](git@github.com:brucelc/bru-cli.git)
+- [so easy 搭建前端脚手架](https://segmentfault.com/a/1190000016915868)
+- [一次nodejs开发CLI的过程](https://juejin.im/post/5a90dd62f265da4e9a4973aa)
+- [create-react-app源码分析](https://github.com/fi3ework/blog/issues/38)
+- [vue-cli源码分析](https://kuangpf.com/vue-cli-analysis/serve/)
+- [源码](git@github.com:brucelc/bru-cli.git)
 
 
 
