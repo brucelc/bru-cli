@@ -11,7 +11,10 @@
 # 线上使用
 - 全局安装: npm i bru-cli -g
 - bru-cli cli download myApp 执行 直接下载模板命令
-- bru-cli cli create component/routes Login 目前只提供这两种组件的创建, 其他待定
+- bru-cli cli create component/routes Login 目前只提供这两种组件的创建, 其他待定(暂时会显示找不到package.json的问题, 没时间解决)
+
+# 2020-01-04
+- 目前只提供了umi项目的初始化, 后续还会继续提供类似于小二后台项目的脚手架和VUE的脚手架
 
 ## 搭建一个属于自己的脚手架
 
