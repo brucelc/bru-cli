@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "bin": {
-    "bruce-cli": "./bin/init.js"
+    "bru-cli": "./bin/init.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

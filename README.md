@@ -9,8 +9,9 @@
 - node ./bin/init.js cli create compoent List 创建component文件
 
 # 线上使用
-全局安装: npm i bru-cli -g
-bruce-cli cli download myApp 执行命令
+- 全局安装: npm i bru-cli -g
+- bru-cli cli download myApp 执行 直接下载模板命令
+- bru-cli cli create component/routes Login 目前只提供这两种组件的创建, 其他待定
 
 ## 搭建一个属于自己的脚手架
 
